@@ -1,5 +1,6 @@
 
 import { Link } from "react-router-dom";
+import { Play } from "lucide-react";
 
 export interface ArticleCardProps {
   id: string;
@@ -10,9 +11,10 @@ export interface ArticleCardProps {
   date: string;
   featured?: boolean;
   className?: string;
+  video?: string;
 }
 
-const ArticleCard = ({ id, title, excerpt, image, category, date, featured = false, className = "" }: ArticleCardProps) => {
+const ArticleCard = ({ id, title, excerpt, image, category, date, featured = false, className = "", video }: ArticleCardProps) => {
   return (
     <div className={`overflow-hidden rounded-lg shadow-md bg-white hover:shadow-lg transition duration-300 ${className}`}>
       <Link to={`/articulo/${id}`}>
@@ -27,6 +29,11 @@ const ArticleCard = ({ id, title, excerpt, image, category, date, featured = fal
               {category}
             </span>
           </div>
+          {video && (
+            <div className="absolute bottom-2 right-2 bg-catholic-secondary/80 rounded-full p-2">
+              <Play className="h-4 w-4 text-white" />
+            </div>
+          )}
         </div>
         
         <div className="p-5">

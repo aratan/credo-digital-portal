@@ -5,6 +5,7 @@ import Layout from "@/components/Layout";
 import { articles } from "@/lib/mockData";
 import { Button } from "@/components/ui/button";
 import ArticleCard from "@/components/ArticleCard";
+import VideoEmbed from "@/components/VideoEmbed";
 import { ArrowLeft, Share2, Facebook, Twitter } from "lucide-react";
 
 const ArticuloDetalle = () => {
@@ -92,6 +93,13 @@ const ArticuloDetalle = () => {
                 alt={article.title} 
                 className="w-full h-auto rounded-lg shadow-md mb-6"
               />
+              
+              {article.video && (
+                <div className="mb-6">
+                  <VideoEmbed videoId={article.video} title={`Video: ${article.title}`} />
+                </div>
+              )}
+              
               <p className="text-lg text-gray-600 mb-6">{article.excerpt}</p>
               
               <div className="prose prose-lg max-w-none" dangerouslySetInnerHTML={{ __html: article.content }} />

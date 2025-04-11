@@ -12,6 +12,7 @@ export const articles = [
       <p>Al finalizar la audiencia, el Papa saludó a varios grupos de peregrinos y dedicó palabras especiales a las víctimas de los conflictos armados, asegurando que la Iglesia les acompaña en su sufrimiento.</p>
     `,
     image: "https://picsum.photos/seed/catholic1/800/600",
+    video: "dQw4w9WgXcQ",
     category: "Vaticano",
     date: "10 abril 2025",
     featured: true
@@ -28,6 +29,7 @@ export const articles = [
       <p>Los preparativos ya han comenzado en la capital surcoreana, que espera superar los 3 millones de participantes en lo que será la primera JMJ celebrada en Corea del Sur.</p>
     `,
     image: "https://picsum.photos/seed/catholic2/800/600",
+    video: "dQw4w9WgXcQ",
     category: "Eventos",
     date: "8 abril 2025"
   },
@@ -43,6 +45,7 @@ export const articles = [
       <p>Se espera que la encíclica sea publicada a finales de este año, coincidiendo con el 10º aniversario de la histórica encíclica "Laudato Si" sobre el cuidado de la casa común.</p>
     `,
     image: "https://picsum.photos/seed/catholic3/800/600",
+    video: "",
     category: "Documentos",
     date: "7 abril 2025"
   },
@@ -58,6 +61,7 @@ export const articles = [
       <p>La ceremonia de beatificación, que será presidida por el cardenal Marcello Semeraro, prefecto del Dicasterio para las Causas de los Santos, reunirá a familiares de los mártires y fieles de toda España.</p>
     `,
     image: "https://picsum.photos/seed/catholic4/800/600",
+    video: "dQw4w9WgXcQ",
     category: "Beatificaciones",
     date: "5 abril 2025"
   },
@@ -73,6 +77,7 @@ export const articles = [
       <p>La Pontificia Comisión Bíblica del Vaticano ha expresado su interés en colaborar en el estudio de estos textos que "podrían enriquecer nuestra comprensión de la historia del cristianismo primitivo".</p>
     `,
     image: "https://picsum.photos/seed/catholic5/800/600",
+    video: "",
     category: "Arqueología",
     date: "3 abril 2025"
   },
@@ -88,6 +93,7 @@ export const articles = [
       <p>Las escuelas se construirán principalmente en zonas rurales y suburbios urbanos donde el acceso a la educación de calidad es limitado, y ofrecerán desde educación primaria hasta formación técnica adaptada a las necesidades locales.</p>
     `,
     image: "https://picsum.photos/seed/catholic6/800/600",
+    video: "dQw4w9WgXcQ",
     category: "Educación",
     date: "29 marzo 2025"
   }
