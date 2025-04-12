@@ -1,8 +1,8 @@
-# Welcome to your Lovable project
+# Kairos - Portal Católico
 
 ## Project info
 
-**URL**: https://lovable.dev/projects/8484a52c-0ac0-41fd-9a1d-3213c49395d4
+A Catholic news and resources portal built with React, TypeScript, and shadcn/ui.
 
 ## How can I edit this code?
 
@@ -62,12 +62,23 @@ This project is built with:
 
 ## How can I deploy this project?
 
-Simply open [Lovable](https://lovable.dev/projects/8484a52c-0ac0-41fd-9a1d-3213c49395d4) and click on Share -> Publish.
+### GitHub Deployment
 
-## Can I connect a custom domain to my Lovable project?
+1. Push your code to GitHub:
+```sh
+git add .
+git commit -m "Initial commit"
+git push origin main
+```
 
-Yes it is!
+### Netlify Deployment
 
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
+1. Sign in to [Netlify](https://app.netlify.com/)
+2. Click "New site from Git"
+3. Select your GitHub repository
+4. Configure build settings:
+   - Build command: `npm run build`
+   - Publish directory: `dist`
+5. Click "Deploy site"
 
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
+The site will be automatically deployed whenever you push changes to your GitHub repository.
